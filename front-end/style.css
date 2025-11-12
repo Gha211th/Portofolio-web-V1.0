@@ -98,16 +98,17 @@ div .my-name {
   gap: 2.5rem;
   max-width: 100%;
   width: 100%;
-  padding: 15rem;
+  padding: 10rem;
 }
 
 .profile-text {
   text-align: left;
   flex: 1 1 360px;
+  padding-left: 3rem;
 }
 
 .profile-text h1 {
-  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 3vw, 5rem);
   font-weight: 600;
 }
 
@@ -130,7 +131,7 @@ div .my-name {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .menu-nav {
     opacity: 0;
     position: absolute;
@@ -163,13 +164,15 @@ div .my-name {
     text-align: center;
     gap: 1rem;
     align-items: center;
+    padding: 5rem;
   }
 
   .profile-text {
     text-align: center;
     flex: none;
+    padding-left: 0rem;
   }
   .logo-img-content {
-    width: 140px;
+    width: 200px;
   }
 }
