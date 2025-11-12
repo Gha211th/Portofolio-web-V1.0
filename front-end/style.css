@@ -84,6 +84,8 @@ div .my-name {
   display: none;
 }
 
+/* my-profile-section */
+
 #my-profile {
   display: flex;
   justify-content: center;
@@ -123,6 +125,43 @@ div .my-name {
   width: min(40%, 360px);
   height: auto;
   border-radius: 100%;
+}
+
+/* about-me-section */
+#About-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-text-title {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.about-me-text-title h1 {
+  text-align: center;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+}
+
+.about-me-text-title h3 {
+  text-align: center;
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.about-me-text-title p {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  text-align: justify;
 }
 
 @media (max-width: 900px) {
