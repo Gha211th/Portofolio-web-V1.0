@@ -249,17 +249,27 @@ div .my-name {
   border-radius: 10px;
 }
 
-.description {
+.description p {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-size: clamp(0.7rem, 1.2vw, 1.2rem);
 }
 
 .more-button {
-  text-align: center;
-  padding: 0.8rem 1rem;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.8rem 4rem;
   background-color: #000;
-  width: fit-content;
   color: #fff;
+  width: fit-content;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.more-button:hover {
+  transform: scale(0.9);
 }
 
 /* =================================== */
