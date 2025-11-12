@@ -159,15 +159,41 @@ div .my-name {
 
 .about-me-text-title p {
   margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  padding: 1rem 1.2rem;
   text-align: justify;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #0000003c;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
 }
 
 @media (max-width: 900px) {
   .my-content-profile {
     gap: 1.25rem;
   }
+}
+
+/* section my-project */
+#my-project {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.list-project {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+}
+
+.project-list-title {
+  text-align: center;
+}
+
+.project-list-title h1 {
+  font-size: clamp(2rem, 3vw, 2.6rem);
 }
 
 @media (max-width: 768px) {
@@ -213,5 +239,14 @@ div .my-name {
   }
   .logo-img-content {
     width: 200px;
+  }
+
+  .about-me-text-title {
+    padding: 2rem;
+  }
+
+  .about-me-text-title p {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
