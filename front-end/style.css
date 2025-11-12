@@ -194,6 +194,13 @@ div .my-name {
 
 .project-list-title h1 {
   font-size: clamp(2rem, 3vw, 2.6rem);
+  font-weight: 600;
+}
+
+.project-list-title h3 {
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+  font-style: italic;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
