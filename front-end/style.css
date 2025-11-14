@@ -172,7 +172,6 @@ div .my-name {
 
 /* section my-project */
 #my-project {
-  scroll-margin-top: 15rem;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -207,13 +206,6 @@ div .my-name {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-}
-
-.all-list2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
 }
 
 .list-of-list {
@@ -280,7 +272,14 @@ div .my-name {
 /* =========untuk responsive========== */
 /* =================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 1900px) {
+  .about-me-text-title {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
+@media (max-width: 1300px) {
   .menu-nav {
     opacity: 0;
     position: absolute;
@@ -334,6 +333,10 @@ div .my-name {
     margin-right: 2rem;
   }
 
+  #my-project {
+    scroll-margin-top: 2rem;
+  }
+
   .all-list1 {
     gap: 1rem;
   }
@@ -351,8 +354,23 @@ div .my-name {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 867px) {
+  #my-project {
+    scroll-margin-top: 2rem;
+  }
+
   .my-content-profile {
-    gap: 1.25rem;
+    padding: 5rem;
+  }
+
+  .about-me-text-title {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #my-project {
+    scroll-margin-top: 0rem;
   }
 }
