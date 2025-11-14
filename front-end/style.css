@@ -252,7 +252,8 @@ div .my-name {
   font-size: clamp(0.7rem, 1.2vw, 1.2rem);
 }
 
-.more-button {
+.more-button a {
+  text-decoration: none;
   display: block;
   margin: 1rem auto;
   padding: 0.8rem 4rem;
@@ -264,7 +265,7 @@ div .my-name {
   transform-origin: center;
 }
 
-.more-button:hover {
+.more-button a:hover {
   transform: scale(0.9);
 }
 
