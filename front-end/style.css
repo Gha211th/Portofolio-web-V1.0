@@ -268,6 +268,89 @@ div .my-name {
   transform: scale(0.9);
 }
 
+/* SECTION CONTACT ME */
+#contact-me {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contact-content {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.contact-content-text h1 {
+  font-size: clamp(3rem, 1.5vw, 2.5rem);
+  font-weight: 600;
+}
+
+.contact-content-text h4 {
+  font-size: clamp(0.7rem, 1.1vw, 0.9rem);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.contact-list-cont {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-cont {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #0000003c;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.logo-and-text h4 {
+  font-weight: 600;
+}
+
+.list-cont h5 {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.little-text {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.little-text p {
+  font-size: clamp(0.7rem, 1.2vw, 1rem);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: #000;
+  color: #fff;
+  width: fit-content;
+}
 /* =================================== */
 /* =========untuk responsive========== */
 /* =================================== */
