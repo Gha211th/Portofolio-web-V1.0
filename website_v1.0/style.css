@@ -320,6 +320,12 @@ div .my-name {
   flex-direction: column;
   align-items: center;
   gap: 0.6rem;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.list-cont:hover {
+  transform: scale(0.9);
 }
 
 .logo-and-text {
